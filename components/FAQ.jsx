@@ -6,29 +6,34 @@ import { useState } from "react";
 
 const data = [
   {
-    question: "Question 1",
+    question: "What is the duration of the hackathon?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus tenetur expedita fugit illo commodi odio distinctio dicta, nostrum ipsa, quibusdam quis blanditiis vel. Molestiae reprehenderit iure repudiandae at modi optio?",
+      "The Byteverse hackathon will last 30 hours, offering an intense yet rewarding experience",
   },
   {
-    question: "Question 2",
+    question: "Who can participate?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus tenetur expedita fugit illo commodi odio distinctio dicta, nostrum ipsa, quibusdam quis blanditiis vel. Molestiae reprehenderit iure repudiandae at modi optio?",
+      "Byteverse is open to College students currently at any educational institution across the country.",
   },
   {
-    question: "Question 3",
+    question: "How will the hackathon be conducted?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus tenetur expedita fugit illo commodi odio distinctio dicta, nostrum ipsa, quibusdam quis blanditiis vel. Molestiae reprehenderit iure repudiandae at modi optio?",
+      "The hackathon will be conducted online only, allowing participants to join remotely from anywhere.",
   },
   {
-    question: "Question 4",
+    question: "What domains will the hackathon cover?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus tenetur expedita fugit illo commodi odio distinctio dicta, nostrum ipsa, quibusdam quis blanditiis vel. Molestiae reprehenderit iure repudiandae at modi optio?",
+      "The Byteverse hackathon will feature four main tracks: Web Development, App Development, Artificial Intelligence, and Web3 - Blockchain. Additionally, there is a special side track focused on Entrepreneurship. Participants are encouraged to innovate within these domains and bring creative solutions to real-world problems.",
   },
   {
-    question: "Question 5",
+    question: "How many participants typically partake in the hackathon?",
     answer:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus tenetur expedita fugit illo commodi odio distinctio dicta, nostrum ipsa, quibusdam quis blanditiis vel. Molestiae reprehenderit iure repudiandae at modi optio?",
+      "The Byteverse hackathon attracts 1800+ participants from across the country, fostering a diverse and collaborative environment for innovation and problem-solving.",
+  },
+  {
+  question: "What are Prizes for the winning teams?",
+    answer:
+      "The Byteverse hackathon attracts 1800+ participants from across the country, fostering a diverse and collaborative environment for innovation and problem-solving.",
   },
 ];
 const FAQ = () => {

@@ -13,7 +13,7 @@ const QuestionCard = ({ item, expanded, onChange }) => {
       expanded={expanded}
       onChange={onChange}
       slotProps={{ heading: { component: "h4" } }}
-      className="border-[3px]  border-cyan-600 p-2"
+      className="border-[3px]  border-cyan-600 p-2 w-full font-semibold"
       sx={{ background: "none", color: "white", borderRadius: "0.75rem" }}
     >
       <AccordionSummary
