@@ -33,7 +33,7 @@ const data = [
   {
   question: "What are Prizes for the winning teams?",
     answer:
-      "The Byteverse hackathon attracts 1800+ participants from across the country, fostering a diverse and collaborative environment for innovation and problem-solving.",
+      "The Byteverse hackathon offers exciting cash prizes for the Winner, First Runner-up, and Second Runner-up. Additionally, there’s a special cash prize for the best all-first-year team, recognizing outstanding talent among newcomers.",
   },
 ];
 const FAQ = () => {
